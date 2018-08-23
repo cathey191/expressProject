@@ -11,11 +11,16 @@
 		"type": "git",
 		"url": "git+https://github.com/cathey191/expressProject.git"
 	},
-	"keywords": ["express"],
+	"keywords": [
+		"express"
+	],
 	"author": "Catherine Clague",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/cathey191/expressProject/issues"
 	},
-	"homepage": "https://github.com/cathey191/expressProject#readme"
+	"homepage": "https://github.com/cathey191/expressProject#readme",
+	"dependencies": {
+		"express": "^4.16.3"
+	}
 }
