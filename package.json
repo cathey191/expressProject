@@ -1,0 +1,21 @@
+{
+	"name": "expressproject",
+	"version": "0.0.1",
+	"description": "Express done in class",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev:server": "modemon -L app"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cathey191/expressProject.git"
+	},
+	"keywords": ["express"],
+	"author": "Catherine Clague",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cathey191/expressProject/issues"
+	},
+	"homepage": "https://github.com/cathey191/expressProject#readme"
+}
