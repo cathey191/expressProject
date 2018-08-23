@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 
 app.use(function(req, res, next) {
@@ -7,6 +8,16 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.static('./public'));
+app.use(
+	'/bootstrapStyle',
+	express.static(
+		path.join(__dirname, 'node_modules/bootstrap/dist/css/bootstrap.min.css')
+	)
+);
+app.use(
+	'/jqureyLink',
+	express.static(path.join(__dirname, 'node_modules/jquery/dist/jquery.min.js'))
+);
 
 // app.get('/', (req, res) => res.send('Hello World!'));
 app.get('/', function(req, res) {
